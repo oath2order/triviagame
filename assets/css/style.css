@@ -1,0 +1,13 @@
+.answer{
+	background-color: lightgray;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-top: 10px;	
+}
+.container{
+display: none;
+
+
+
+}
