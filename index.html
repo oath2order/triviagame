@@ -30,16 +30,30 @@
             <h4 class="modal-title" id="myModalLabel">Mystery Novel Quiz Game</h4>
           </div>
             <div class="modal-body">
-              WELCOME TO THE GAME HERE IS HOW YOU PLAY CLICK BUTTON TO PLAY.
-            <button type="button" class="btn btn-default" id="startgame" data-dismiss="modal">Close</button>
+              <h2 id="score"></h2>
+              <p id="modaltext">Welcome to an elegant night of murder and romance. Your knowledge of murder mystery novels will be tested. You have 45 seconds to answer each question.</p>
+            <button type="button" class="btn btn-default" id="startgame" data-dismiss="modal">Start</button>
             </div>
           </div>  
       </div>
     </div>
-
-
-    <div class="test"> SCREAMING </div>
-
+    <!-- Between Question Popups -->
+    <div class="popup" id="correct">
+    <h2 id="timercorrect"></h2>
+      <img src="assets\images\correct.png">
+      <p>You got it! Good Job, Super Sleuth!</p>
+    </div>
+    <div class="popup" id="incorrect">
+    <h2 id="timerincorrect"></h2>
+    <img src="assets\images\incorrect.png">
+      <p>Way to Watson it up, buddy.</p>
+    </div>
+    <div class="popup" id="timeout">
+    <h2 id="timertimeout"></h2>
+    <img src="assets\images\timeout.png">
+      <p>Ran out of time.</p>
+    </div>
+    <!-- main content -->
     <div class="container">
       <div class="header clearfix">
         <h3 class="text-muted">Mystery Novel Quiz Game</h3>
@@ -74,7 +88,7 @@
         </div>
       </div>
     <footer class="footer">
-      <p>&copy; 2016 Company, Inc.</p>
+      <p>&copy; 2017 Josh Co Inc.</p>
     </footer>
 
   </div> <!-- /container -->
